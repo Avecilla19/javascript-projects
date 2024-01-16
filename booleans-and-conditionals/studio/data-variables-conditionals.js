@@ -16,15 +16,11 @@ let fuelLevel = "100%";
 let weatherStatus = "Clear";
 let preparedForLiftOff = true;
 // add logic below to verify total number of astronauts for shuttle launch does not exceed 7
-if (astronautCount <= 7){
-    preparedForLiftOff = true;
-} else {
+if (astronautCount > 7){
     preparedForLiftOff = false;
 };
 // add logic below to verify all astronauts are ready
-if (astronautStatus === "Ready"){
-    preparedForLiftOff = true;
-} else {
+if (astronautStatus === !"Ready"){
     preparedForLiftOff = false;
 }
 // add logic below to verify the total mass does not exceed the maximum limit of 850000
