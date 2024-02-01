@@ -11,7 +11,12 @@ function getValidInput(prompt, isValid) {
 
     return userInput;
 }
-
+let isValidA = function(str) {
+  if (!str.includes('a')){
+    return false;
+  }
+  return true
+};
 // TODO 1: write a validator 
 // that ensures input starts with "a"
 
@@ -19,3 +24,5 @@ function getValidInput(prompt, isValid) {
 // that ensures input is a vowel
 
 // Be sure to test your code!
+console.log(getValidInput("type apple: ", isValidA));
+// i just did a simple one making the user type what i wanted to see if it worked
