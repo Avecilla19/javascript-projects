@@ -8,7 +8,7 @@ function randomSelection(arr){
  let words = ['Hello', 'World', 'Python', 'JavaScript', 'Rutabaga'];
  
  for (i=0; i < 8; i++){
-   console.log(randomSelection(happiness));
+   console.log(randomSelection(words));
  }
  
  //Experiment with the code above. Try to:
